@@ -16,7 +16,7 @@ if (!isset($pagetype)) {
     <meta charset="utf-8">
     <?= $this->headTitle()->setSeparator(' &middot; ')->setAutoEscape(false) ?>
 
-    <?= $this->headMeta()->appendName('copyright', 'Jurian Sluiman 2006-2013')
+    <?= $this->headMeta()->appendName('copyright', 'Elise Sluiman 2009-2013')
                          ->appendName('generator', 'Ensemble CMF - Soflomo.com')
                          ->appendName('viewport', 'width=device-width, initial-scale=1')
                          ?>
@@ -29,31 +29,9 @@ if (!isset($pagetype)) {
 </head>
 
 <body itemscope itemtype="http://schema.org/<?= $pagetype?>">
-    <main role="main" id="content"><?= $this->content ?></main>
-
-    <footer role="contentinfo" class="page-footer">
-        <p>&copy; Jurian Sluiman 2006-2013 &mdash; All content is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0</a>.</p>
-
-        <nav>
-        <ul class="navigation-footer">
-            <li><a href="/">blog</a></li>
-            <li><a href="/about">about me</a></li>
-            <li><a href="/contact">contact</a></li>
-        </ul>
-
-        <!-- <ul class="navigation-footer">
-            <li><a href="/category/programming">programming</a></li>
-            <li><a href="/category/entrepreneur">entrepreneurial</a></li>
-            <li><a href="/category/writing">random words</a></li>
-        </ul> -->
-
-        <ul class="navigation-footer">
-            <li><a href="https://twitter.com/juriansluiman">twitter</a></li>
-            <li><a href="https://linkedin.com/in/juriansluiman">linkedin</a></li>
-            <li><a href="https://github.com/juriansluiman">github</a></li>
-        </ul>
-        </nav>
-    </footer>
+    <section class="wrapper">
+      <main role="main" id="content"><?= $this->content ?></main>
+    </section>
 
     <?= $this->inlineScript()->appendScript("WebFontConfig = {
   google: { families: [ 'Source Code Pro' ] }

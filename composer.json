@@ -2,32 +2,27 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "git@github.com:Soflomo/Textarea.git"
+        },
+        {
+            "type": "vcs",
             "url": "git@github.com:Soflomo/Image.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:Soflomo/Blog.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:Soflomo/BlogI18n.git"
         }
     ],
     "require": {
         "zendframework/zendframework": ">=2.1.0,<2.3.0-dev",
 
-        "soflomo/prototype": ">=0.1.0,<0.2.0-dev",
-        "soflomo/common": ">=0.4.1,<0.5.0-dev",
-        "soflomo/image": "@dev",
-        "soflomo/blog": "@dev",
-        "soflomo/blog-i18n": "@dev",
+        "zf-commons/zfc-user": ">=0.1.0,<0.2.0-dev",
+        "zf-commons/zfc-user-doctrine-orm": ">=0.1.0,<0.2.0-dev",
+        "slm/google-analytics": ">=0.3.0,<0.4.0-dev",
 
         "ensemble/kernel": "@dev",
         "ensemble/utils": "@dev",
         "ensemble/kernel-doctrine-orm": "@dev",
         "ensemble/admin": "@dev",
-        "zf-commons/zfc-user": ">=0.1.0,<0.2.0-dev",
-        "zf-commons/zfc-user-doctrine-orm": ">=0.1.0,<0.2.0-dev",
-        "slm/google-analytics": ">=0.3.0,<0.4.0-dev"
+
+        "soflomo/common": ">=0.4.1,<0.5.0-dev",
+        "soflomo/image": "@dev",
+        "soflomo/textarea": "@dev"
     }
 }

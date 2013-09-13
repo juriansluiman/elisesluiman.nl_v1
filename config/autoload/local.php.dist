@@ -12,9 +12,11 @@
  */
 
 return array(
-    'email' => array(
-        'username'     => '',
-        'password'     => '',
+    'google_analytics' => array(
+        'enable' => true,
+    ),
+    'view_manager' => array(
+        'display_exceptions' => false,
     ),
 );
 

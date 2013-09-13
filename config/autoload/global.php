@@ -12,9 +12,12 @@
  */
 
 return array(
+    'slm_exception' => array(
+        'enable_markers'  => true,
+    ),
     'soflomo_purifier' => array(
         'config' => array(
-            'Cache.DefinitionImpl' => null,
+            //'Cache.DefinitionImpl' => null,
         )
     ),
 );
