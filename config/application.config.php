@@ -16,7 +16,6 @@ $config = array(
         'Ensemble\Admin',
         'Soflomo\Common',
         'Soflomo\Image',
-        'Soflomo\Purifier',
         'Soflomo\Textarea',
         'SlmGoogleAnalytics',
         'Template',
